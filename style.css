@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins' , sans-serif;
+}
+/*
+header {
+    width: 100%;
+    height: 20vh auto;
+    background-color: red;
+    display: flex;
+}
+    */
+ nav .ul {
+    list-style: none inside;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+nav .ul li {
+    display: block;
+    position: relative;
+    float: left;
+    background: #24af15;
+    /* menu background color */
+  }
+  
+nav .ul li a {
+    display: block;
+    padding: 0;
+    text-decoration: none;
+    width: 200px;
+    /* this is the width of the menu items */
+    line-height: 35px;
+    /* this is the hieght of the menu items */
+    color: #ffffff;
+    /* list item font color */
+  }
+  
+nav .ul li li a {
+    font-size: 80%;
+  }
+  
+  
+  /* smaller font size for sub menu items */
+  
+nav .ul li:hover {
+    background: #003f20;
+  }
+  
+  
+  /* highlights current hovered list item and the parent list items when hovering over sub menues */
+  
+nav .ul ul {
+    position: absolute;
+    padding: 0;
+    left: 0;
+    display: none;
+    /* hides sublists */
+  }
+  
+nav .ul li:hover ul {
+    display: none;
+  }
+  
+  
+  /* hides sub-sublists */
+  
+  nav .ul li:hover ul {
+    display: block;
+  }
+  
+.container {
+    width: 100%;
+
+}
