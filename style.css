@@ -4,15 +4,38 @@
     box-sizing: border-box;
     font-family: 'poppins' , sans-serif;
 }
-/*
 header {
     width: 100%;
-    height: 20vh auto;
-    background-color: red;
+    background-color: navy;
+    padding: 10px 30px;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
-    */
+header nav .logo {
+    text-align: center;
+    color: rgb(35, 228, 35);
+    font-size: 1.rem;
+}
+header nav .log img{
+    width: 100%;
+    width: 3.5rem;
+    border-radius: 5px;
+}
+header nav{
+    width: 80%;
+    /*background-color: blue;*/
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+}
+    
  nav .ul {
+    display: flex;
+    width: 80%;
     list-style: none inside;
     margin: 0;
     padding: 0;
@@ -23,8 +46,7 @@ nav .ul li {
     display: block;
     position: relative;
     float: left;
-    background: #24af15;
-    /* menu background color */
+    background-color: navy;
   }
   
 nav .ul li a {
@@ -32,41 +54,28 @@ nav .ul li a {
     padding: 0;
     text-decoration: none;
     width: 200px;
-    /* this is the width of the menu items */
     line-height: 35px;
-    /* this is the hieght of the menu items */
     color: #ffffff;
-    /* list item font color */
   }
   
 nav .ul li li a {
     font-size: 80%;
   }
   
-  
-  /* smaller font size for sub menu items */
-  
 nav .ul li:hover {
-    background: #003f20;
+    background: rgb(35, 250, 35);
   }
-  
-  
-  /* highlights current hovered list item and the parent list items when hovering over sub menues */
   
 nav .ul ul {
     position: absolute;
     padding: 0;
     left: 0;
     display: none;
-    /* hides sublists */
   }
   
 nav .ul li:hover ul {
     display: none;
   }
-  
-  
-  /* hides sub-sublists */
   
   nav .ul li:hover ul {
     display: block;
