@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -24,7 +26,7 @@ header nav .log img{
     border-radius: 5px;
 }
 header nav{
-    width: 80%;
+    width: 90%;
     /*background-color: blue;*/
     display: flex;
     justify-content: space-between;
@@ -35,15 +37,15 @@ header nav{
     
  nav .ul {
     display: flex;
-    width: 80%;
-    list-style: none inside;
-    margin: 0;
+    width: 60%;
+    list-style: none;
+    margin: 0 10px;
     padding: 0;
     text-align: center;
   }
   
 nav .ul li {
-    display: block;
+    display: inline-block;
     position: relative;
     float: left;
     background-color: navy;
@@ -83,5 +85,169 @@ nav .ul li:hover ul {
   
 .container {
     width: 100%;
+    height: 100% auto;
+    margin: 5px;
+    padding: 5px;
 
+}
+
+.container .comment {
+  width: 100%;
+  height: 20vh;
+  background-color: pink;
+  padding: 20px;
+  border-radius: 8px;
+}
+.container .comment .com{
+  width: 100%;
+  padding: 15px;
+  background-color: aqua;
+}
+.container .comment .com .input{
+ width: 90%;
+ display: inline-block;
+ justify-content: space-between;
+}
+.container .comment .com input{
+  height: 2.5em;
+  width: 20%;
+  border-radius: 10px;
+
+}
+.container .comment .com button{
+  display: inline-block;
+  padding: 10px;
+  background-color: blue;
+  color: #ffffff;
+}
+.container .side{
+  width: 100%;
+  height: 100vh auto;
+  background-color: cadetblue;
+  border-radius: 8px;
+}
+.container .side .img-cent{
+  width: 100%;
+  display: flex;
+  padding: o 10px;
+}
+.container .side .time{
+  width: 10%;
+  display: flex;
+  align-items: center;
+}
+
+.container .side .time h3{
+  text-align: center;
+  color: black;
+  opacity: 0.6;
+
+}
+
+.container .side .img-cent .img{
+    width: 90%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    margin: 0 15px;
+}
+.container .side .img-cent .img h1{
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.container .side .img-cent .img h1 > span{
+  font-size: 1.2rem;
+  opacity: 0.6;
+}
+.container .side .img-cent .img img{
+  width: 5rem;
+  margin: 0 20px;
+}
+
+.container .para{
+  width: 100%;
+  margin: 35px px;
+  height: 500px auto;
+}
+.container .para .p{
+  opacity: 0.8;
+  margin: 15px;
+}
+
+.container .para .img2{
+  width: 50%;
+  background-color: #fff;
+  display: inline-block;
+  margin: 10px 300px;
+}
+.container .para .img2 .pic{
+  width: 100% auto;
+  height:  auto;
+
+}
+.container .para .img2 .pic img{
+  width: 100%;
+  display: block;
+  align-items: center;
+  background-color: blue;
+}
+.container .para .img2 a{
+  text-decoration: none;
+  color: black;
+}
+.container .llc {
+  width: 100%;
+  height: 500px auto;
+  background-color: burlywood;
+  border-radius: 5px;
+
+}
+.container .llc .pix{
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.container .llc .pix .lcc{
+   width: 80%;
+   display: flex;
+   align-items: center;
+}
+.container .llc .pix .lcc img{
+   width: 10%;
+   margin: 0 15px;
+}
+.container .llc .pix tim{
+  width: 20%;
+}
+.container .llc .art{
+  width: 100%;
+  margin: 15px 19px;
+}
+.container .llc .art a{
+  width: 100%;
+  text-decoration: none;
+}
+.container .llc .p-img{
+  width: 90%;
+  height: auto;
+  margin: 15px 50px;
+}
+.container .llc .p-img img{
+  width: 100%;
+}
+.container .llc .icon{
+  width: 90%;
+  margin: 10px 50px;
+  background-color: white;
+  height: 10vh auto;
+  color: black;
+}
+.container .llc .icon i{
+  padding: 5px;
+}
+.container .llc .icon a{
+  width: 100%;
+  text-decoration: none;
+  margin: 0 100px auto;
 }
