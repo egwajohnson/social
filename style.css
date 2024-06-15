@@ -7,6 +7,7 @@
     font-family: 'poppins' , sans-serif;
 }
 header {
+  grid-area: hd;
     width: 100%;
     background-color: navy;
     padding: 10px 30px;
@@ -86,12 +87,11 @@ nav .ul li:hover ul {
 .container {
     width: 100%;
     height: 100% auto;
-    margin: 5px;
-    padding: 5px;
 
 }
 
 .container .comment {
+  grid-area: cm;
   width: 100%;
   height: 20vh;
   background-color: pink;
@@ -166,6 +166,7 @@ nav .ul li:hover ul {
 }
 
 .container .para{
+  grid-area: pa;
   width: 100%;
   margin: 35px px;
   height: 500px auto;
@@ -197,6 +198,7 @@ nav .ul li:hover ul {
   color: black;
 }
 .container .llc {
+  grid-area: ll;
   width: 100%;
   height: 500px auto;
   background-color: burlywood;
@@ -251,6 +253,7 @@ nav .ul li:hover ul {
   margin: 0 100px auto;
 }
 .container .butom {
+  grid-area: bt;
   width: 100%;
   height: 100vh auto;
   background-color: #fff;
@@ -294,4 +297,55 @@ nav .ul li:hover ul {
   width: 100%;
   text-decoration: none;
   margin: 0 100px auto;
+}
+
+.container .left-side{
+  grid-area: si;
+  width: 70%;
+  height: 100vh;
+  border-radius: 5px;
+  display: block;
+  align-items: center;
+}
+.container .left-side .con{
+  width: 100%;
+  height: 100vh auto;
+  display: grid;
+  place-items: center;
+}
+.container .left-side .con .con-c{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  margin: 15px 20px;
+}
+.container .left-side .con .con-c .img{
+  width: 85%;
+  height: auto;
+  display: flex;
+  margin: 5px;
+  align-items: center;
+  justify-items: center;
+}
+.container .left-side .con .con-c i{
+  width: 15%;
+  background-color: aquamarine;
+}
+.container .left-side .con .con-c .img img{
+  width: 4rem;
+  border-radius: 40px;
+  margin: 15px;
+}
+.container .left-side .add{
+  width: 5rem;
+  background-color: blue;
+  color: #fff;
+  border-radius: 40%;
+
+}
+.container .left-side .button{
+   width: 100%;
+   background-color: blue;
+   height: 3em;
+   color: #fff;
 }
