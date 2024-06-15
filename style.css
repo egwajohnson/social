@@ -239,7 +239,6 @@ nav .ul li:hover ul {
 .container .llc .icon{
   width: 90%;
   margin: 10px 50px;
-  background-color: white;
   height: 10vh auto;
   color: black;
 }
@@ -247,6 +246,51 @@ nav .ul li:hover ul {
   padding: 5px;
 }
 .container .llc .icon a{
+  width: 100%;
+  text-decoration: none;
+  margin: 0 100px auto;
+}
+.container .butom {
+  width: 100%;
+  height: 100vh auto;
+  background-color: #fff;
+  border-radius: 5px;
+}
+.container .butom .but{
+  width: 100%;
+  height: 100vh auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container .butom .but .b-img{
+  width: 90%;
+  height: auto;
+  display: flex;
+  align-items: center;
+}
+.container .butom .but .b-img img {
+  width: 5rem;
+  margin: 0 15px;
+  border-radius: 50%;
+}
+.container .butom .but .b-tim{
+  width: 10%;
+  height: auto;
+}
+
+.container .butom .icon {
+  width: 90%;
+  margin: 10px 50px;
+  height: 10vh auto;
+}
+.container .butom .icon i{
+  padding: 5px;
+}
+.container .butom .icon #col{
+  color: red !important;
+}
+.container .butom .icon a{
   width: 100%;
   text-decoration: none;
   margin: 0 100px auto;
