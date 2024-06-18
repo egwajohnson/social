@@ -86,19 +86,18 @@ header nav ul li.first-drop:hover > ul{
   }
   .container {
     width: 100% ;
-    height: 100%;
+    height: 100vh auto;
     margin: -40px 15px;
     padding: 0;
     position: absolute;
     background-color: rgb(241, 235, 235);
     display: grid;
     gap: 10px;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: 100px auto 100px;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 100px auto 70px;
     grid-template-areas: 
     "hd hd hd hd hd hd"
     "cm cm ll ll lsi lsi"
-    "si si ll ll lsi lsi"
     "si si ll ll lsi lsi"
     "si si ll ll lsi lsi"
     "si si but but lsi lsi"
