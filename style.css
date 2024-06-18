@@ -86,7 +86,7 @@ header nav ul li.first-drop:hover > ul{
   }
   .container {
     width: 100% ;
-    height: 100% auto;
+    height: 100%;
     margin: -40px 15px;
     padding: 0;
     position: absolute;
@@ -94,14 +94,14 @@ header nav ul li.first-drop:hover > ul{
     display: grid;
     gap: 10px;
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: 100px auto 75px;
+    grid-template-rows: 100px auto 100px;
     grid-template-areas: 
     "hd hd hd hd hd hd"
     "cm cm ll ll lsi lsi"
     "si si ll ll lsi lsi"
     "si si ll ll lsi lsi"
     "si si ll ll lsi lsi"
-    "si si bt bt lsi lsi"
+    "si si but but lsi lsi"
     ;
   }
 
@@ -236,6 +236,9 @@ header nav ul li.first-drop:hover > ul{
    width: 10%;
    margin: 0 15px;
 }
+.container .llc .pix .lcc .tx{
+  /* background-color: red;*/
+}
 .container .llc .pix tim{
   width: 20%;
 }
@@ -270,12 +273,13 @@ header nav ul li.first-drop:hover > ul{
   margin: 0 100px auto;
 }
 .container .butom {
-  grid-area: bt;
-  width: 100%;
-  height: 100vh auto;
+  grid-area: but;
+  width: 80% auto;
+  height: 20vh auto;
   background-color: #fff;
-  border-radius: 5px;
-  border: 1px solid black;
+  border-radius: 8px;
+  padding: 20px;
+  border: 1px solid #fff;
 }
 .container .butom .but{
   width: 100%;
@@ -301,6 +305,7 @@ header nav ul li.first-drop:hover > ul{
 }
 .container .par{
   width: 100%;
+  font-size: 1.em;
   text-align: justify;
   padding: 0 10px;
 }
@@ -327,9 +332,10 @@ header nav ul li.first-drop:hover > ul{
   width: 100%;
   height: 100vh auto;
   background-color: #fff;
+  flex-direction: column;
+  flex-wrap: wrap;
   border-radius: 5px;
-  border: 1px solid black;
-  display: block;
+ /* border: 1px solid black; */
   align-items: center;
 }
 .container .left-side h1{
@@ -350,17 +356,21 @@ header nav ul li.first-drop:hover > ul{
   margin: 15px 20px;
 }
 .container .left-side .con .con-c .img{
-  width: 100%;
+  width: 80%;
   height: auto;
   display: flex;
   margin: 5px;
   align-items: center;
   justify-items: center;
 }
-.container .left-side .con .con-c i{
+.container .left-side .con .con-c .i{
   width: 15%;
-  background-color: #fff;
-  opacity: .5;
+}
+.container .left-side .con .con-c .i i{
+   width: 100%;
+   display: grid;
+   opacity: .5;
+   place-items: center;
 }
 .container .left-side .con .con-c .img img{
   width: 4rem;
@@ -368,6 +378,7 @@ header nav ul li.first-drop:hover > ul{
   margin: 15px;
 }
 .container .left-side .add{
+  display: inline-block;
   width: 6rem;
   background-color: blue;
   color: #fff;
@@ -381,3 +392,10 @@ header nav ul li.first-drop:hover > ul{
    color: #fff;
 }
 
+@media screen and (max-width: 1179px) {
+  header nav ul {
+    display: none;
+    width: 100%;
+  }
+  
+}
