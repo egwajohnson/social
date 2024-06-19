@@ -391,10 +391,48 @@ header nav ul li.first-drop:hover > ul{
    color: #fff;
 }
 
-@media screen and (max-width: 1179px) {
-  header nav ul {
+@media screen and (max-width:829px) {
+  header nav{
+    width: 80%;
+    display: flex;
+    justify-items: center;
+  }
+ header nav ul{
     display: none;
+    justify-content: space-between;
+  }
+
+  .container {
+    width: 100% auto;
+    height: 100vh auto;
+    margin: 15px 15px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+  }
+  .container .comment{
+    width: 100%;
+    height: 40vh auto;
+    display: grid;
+    align-content: center;
+  }
+  .container .comment .com{
+    width: 100% auto;
+    height: 100vh auto;
+    display: flex;
+  }
+  .container .comment .com .input{
+    width: 70%;
+    background-color: blue;
+    margin: 0 15px;
+  }
+  .container .comment .com .butt{
+     width: 30% auto;
+     background-color: red;
+  }
+  .container .comment .com button{
     width: 100%;
   }
-  
 }
