@@ -8,12 +8,15 @@
 }
 
 header {
-
+    width: 100%;
     background-color: navy;
     padding: 20px;
     grid-area: hd;
+    display: flex;
     position: relative;
     z-index: 4;
+    position: fixed;
+    top: 0;
     
 }
 header nav{
@@ -87,12 +90,12 @@ header nav ul li.first-drop:hover > ul{
   .container {
     width: 100% ;
     height: 100vh auto;
-    margin: -40px 15px;
+    margin: 10px 15px;
     padding: 0;
     position: absolute;
     background-color: rgb(241, 235, 235);
     display: grid;
-    gap: 10px;
+    gap: 30px;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: 100px auto 70px;
     grid-template-areas: 
