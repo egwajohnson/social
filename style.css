@@ -120,9 +120,8 @@ header nav ul li.first-drop:hover > ul{
   padding: 15px;
 }
 .container .comment .com .input{
- width: 80%;
+ width: 70%;
  display: inline-block;
- justify-content: space-between;
 }
 .container .comment .com input{
   height: 2.5em;
@@ -130,8 +129,12 @@ header nav ul li.first-drop:hover > ul{
   border-radius: 10px;
 
 }
-.container .comment .com button{
+.container .comment .com .butt{
   width: 10%;
+  display: inline-block;
+}
+.container .comment .com button{
+  width: 100%;
   display: inline-block;
   padding: 10px;
   background-color: blue;
