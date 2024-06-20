@@ -93,11 +93,11 @@ header nav ul li.first-drop:hover > ul{
     margin: 10px 15px;
     padding: 0;
     position: absolute;
-    background-color: rgb(241, 235, 235);
+    background-color: rgb(230, 225, 225);
     display: grid;
-    gap: 30px;
+    grid-gap: 30px;
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: 100px auto 70px;
+    grid-template-rows:  100px auto 70px;
     grid-template-areas: 
     "hd hd hd hd hd hd"
     "cm cm ll ll lsi lsi"
